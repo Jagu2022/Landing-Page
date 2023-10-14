@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+        text-align: center;
+  }
+.top{
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  }
+.link{
+  padding: 3px;
+  margin: 5px;
+  }
+.top a{
+  text-decoration: none;
+  color:lightgray;
+  margin: 5px;
+  }
+.top img{
+  height: 70px;
+  width: 70px;
+  order:-1;
+  }
+.middle{
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  }
+.middle h1{
+  font-size: 38px;
+  font-weight: ultra-bold;
+  }
+.middle p{
+  font-size: 12px;
+  color:#e5e7eb;
+  }
+.imageContent {
+  margin-left:35px;
+  padding: 10px;
+  }
+.image img{
+  height: 150px;
+  width: 250px;
+  padding: 20px;
+  }
+.container .middle {
+  justify-content: space-around;
+  display: flex;
+  }
+.footer{
+  background-color: #1f2937;
+  color: gray;
+  }
+.footer p{
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  }
+  .middleContentImages{
+  display: flex;
+  justify-content: space-around;
+  }
+.middleContentImages img{
+  padding: 10px;
+  margin-top: 50px;
+  height: 100px;
+  width: 80px;
+  border:3px solid #3882f6;
+  }
+.matter p{
+  background-color: #e7e5eb;
+  font-style: italic;
+  padding: 50px;
+  margin:50px 0 50px 0;
+  }
+.middleContent h4{
+  margin-top: 30px;
+  font-size: 36px;
+  font-weight: extra-bold;
+  padding: 5px;
+  }
+.middleContentImages p{
+  margin-top:10px;
+  }
+.imageContent button{
+  margin-top: 15px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+  }
+.bottom h3{
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+}
+.bottom p{
+  text-align: left;
+  font-size:8px;
+}
+.bottom{
+  background-color: #3882f6;
+  color: white;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction:column;
+}
+.bottomb{
+  display: flex;
+  justify-content: flex-end;
+}
+.bottomb button{
+  border:1px solid white;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+button:hover{
+  background-color: white;
+  color:#3882f6;
+}

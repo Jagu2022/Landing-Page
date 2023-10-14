@@ -1,3 +1,3 @@
 # Landing-Page
 #odin-project
-# This project has mainly focused in flex-box
+# This project has mainly focused on flex-box
